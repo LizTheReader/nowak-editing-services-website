@@ -27,14 +27,24 @@ export function AboutContact() {
           <p className="mx-auto mt-4 max-w-xl leading-relaxed text-cream/70">
             Connect with me on LinkedIn to discuss your manuscript and get started.
           </p>
-          <a
-            href="https://www.linkedin.com/in/enowak25"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-8 inline-flex items-center rounded-full bg-cream px-7 py-3 text-sm font-medium text-charleston transition-opacity hover:opacity-90"
-          >
-            Connect on LinkedIn
-          </a>
+          <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
+            <a
+              href="https://www.linkedin.com/in/enowak25"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center rounded-full bg-cream px-7 py-3 text-sm font-medium text-charleston transition-opacity hover:opacity-90"
+            >
+              Connect on LinkedIn
+            </a>
+            <a
+              href="https://github.com/enowak25"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center rounded-full border border-cream/40 px-7 py-3 text-sm font-medium text-cream transition-colors hover:bg-cream/10"
+            >
+              Now on GitHub
+            </a>
+          </div>
         </div>
       </section>
     </>
