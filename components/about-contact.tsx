@@ -37,7 +37,7 @@ export function AboutContact() {
               Connect on LinkedIn
             </a>
             <a
-              href="https://github.com/enowak25"
+              href="https://github.com/LizTheReader/nowak-editing-services-website"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center rounded-full border border-cream/40 px-7 py-3 text-sm font-medium text-cream transition-colors hover:bg-cream/10"
